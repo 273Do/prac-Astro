@@ -11,5 +11,5 @@ export default function ChildState() {
     const item = isDemo.get();
   };
 
-  return <button onClick={onClick}>{}</button>;
+  return <button onClick={onClick}>click</button>;
 }

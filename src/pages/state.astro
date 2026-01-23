@@ -1,11 +1,14 @@
 ---
 import ChildState from "../components/child-state";
 import ChildState2 from "../components/child-state2";
+import { ClientRouter } from "astro:transitions";
 ---
 
 <!doctype html>
 <html lang="en">
-  <head></head>
+  <head>
+    <ClientRouter />
+  </head>
   <body>
     <header></header>
     <main>Parent</main>
